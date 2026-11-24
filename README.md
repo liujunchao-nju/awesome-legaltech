@@ -1,25 +1,18 @@
-# Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-<div align="center">
-  <sup>Sponsored by</sup><br>
-  <a href="https://vaquill.ai"><strong>Vaquill AI</strong></a>
-  <br>
-  <sub>The most complete US primary law API.</sub>
-</div>
+# Awesome Legaltech (Chinese & Global Edition) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> 面向中国法与全球法律科技生态的精选开源导航：涵盖中国法开源工具链、中文法律大模型与评测基准、全球法律开放数据 API、MCP Servers 与文档自动化工具。
+
+本仓库在原全球 LegalTech 清单基础上重构维护，重点补齐**中国法与中文 LegalTech 生态**板块，并保持原有的自动化链接巡检与时效性审计机制。
 
 ---
-
-> A curated list of awesome legal technology resources - open source platforms, AI models, MCP servers, companies, datasets, and tools for the global legal ecosystem.
-
-Legal technology (legaltech) is the use of technology and software to provide legal services, automate legal work, and make law more accessible. This list covers open-source tools, commercial platforms, AI/ML models built for law, and organizations (both for-profit and non-profit) working at the intersection of law and technology.
-
-**Contributions welcome!** Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
----
-
-[![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/GQtnwxf8nQ)
 
 ## Contents
 
+- [Chinese LegalTech Ecosystem (中文法律科技生态)](#chinese-legaltech-ecosystem-中文法律科技生态)
+  - [Chinese Legal Engineering & Tooling (法学方法论与实务工具)](#chinese-legal-engineering--tooling-法学方法论与实务工具)
+  - [Chinese Legal Datasets & Benchmarks (中文法律数据集与评测)](#chinese-legal-datasets--benchmarks-中文法律数据集与评测)
+  - [Chinese Legal LLMs (中文法律大模型)](#chinese-legal-llms-中文法律大模型)
+  - [Official Chinese Legal Databases (中国法官方公开检索源)](#official-chinese-legal-databases-中国法官方公开检索源)
 - [Open Source by Vaquill](#open-source-by-vaquill)
 - [APIs for Legal Data](#apis-for-legal-data)
 - [Machine Learning Datasets & Corpora](#machine-learning-datasets--corpora)
@@ -55,6 +48,34 @@ Legal technology (legaltech) is the use of technology and software to provide le
 - [Communities, Conferences & Media](#communities-conferences--media)
 - [Related Awesome Lists](#related-awesome-lists)
 - [Deprecated / Archived](#deprecated--archived)
+
+---
+
+## Chinese LegalTech Ecosystem (中文法律科技生态)
+
+### Chinese Legal Engineering & Tooling (法学方法论与实务工具)
+
+- [cn-legal-citation](https://github.com/liujunchao-nju/cn-legal-citation) - **[Open Source]** 🇨🇳 按《法学引注手册》（第二版）生成、核查、改写中文法学脚注的确定性规则引擎，支持 69 类文献、复合脚注、期刊方言及 Word 页下脚注批改。
+- [gutachten-cn](https://github.com/liujunchao-nju/gutachten-cn) - **[Open Source]** 🇨🇳 鉴定式案例分析（Gutachten）工程化工具：覆盖刑法阶层与罪名程式、民法请求权基础、行政行为合法性审查共 17 套检视体系，支持阶层顺序与阻断校验。
+- [contract-review-checklist](https://github.com/liujunchao-nju/contract-review-checklist) - **[Open Source]** 🇨🇳 中文合同审查清单：三观四步框架、15 类常见合同标准、市场基准区间、法条白名单与 Word 批注输出。
+- [legal-writing-samples](https://github.com/liujunchao-nju/legal-writing-samples) - **[Open Source]** 🇨🇳 中文法律文书范文库：15 类诉讼与非诉文书要素模型、案例改写范文及「法律名称 + 条号」联合校验。
+
+### Chinese Legal Datasets & Benchmarks (中文法律数据集与评测)
+
+- [CAIL (中国法研杯数据集)](https://github.com/china-ai-law-challenge/CAIL2018) - **[Open Source]** 中国法律智能技术评测历年公开数据集，覆盖罪名预测、法条推荐、刑期预测与法律阅读理解等任务。
+- [LawBench](https://github.com/open-compass/LawBench) - **[Open Source]** 面向中文法律大语言模型的系统化能力评测基准，覆盖记忆、理解与推理三大维度 20 项任务。
+- [LexEval](https://github.com/CSHaitao/LexEval) - **[Open Source]** 面向中文法律场景的大模型综合评测基准，包含法律认知、伦理与实务应用评估。
+- [JEC-QA](https://github.com/thunlp/JEC-QA) - **[Open Source]** 国家统一法律职业资格考试（原司法考试）多选题与知识推理问答数据集。
+
+### Chinese Legal LLMs (中文法律大模型)
+
+- [DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) - **[Open Source]** 复旦大学开源中文智慧司法大模型，结合法律检索增强（RAG）与司法文书生成能力。
+- [ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) - **[Open Source]** 北京大学开源中文法律大模型与多智能体法律咨询框架。
+
+### Official Chinese Legal Databases (中国法官方公开检索源)
+
+- [国家法律法规数据库](https://flk.npc.gov.cn/) - 全国人大常委会官方主办，收录现行有效宪法、法律、行政法规、司法解释等权威规范性文本。
+- [人民法院案例库](https://rmfyalk.court.gov.cn/) - 最高人民法院官方建设的权威参考案例库，供类案检索与裁判尺度参考。
 
 ---
 
